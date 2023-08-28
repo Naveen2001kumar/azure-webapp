@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AppController {
-    @RequestMapping("get")
+    @RequestMapping("/get")
     public String getContent()
     {
-        return "<h1>hii iam naveen</h1>";
+        return "hii iam naveen";
     }
 }
