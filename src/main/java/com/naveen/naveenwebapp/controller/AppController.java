@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AppController {
-@GetMapping("/get")
+    @GetMapping("get")
     public String getContent()
     {
         return "<h1>hii iam naveen</h1>";
