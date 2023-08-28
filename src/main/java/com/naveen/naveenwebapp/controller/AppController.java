@@ -11,9 +11,5 @@ public class AppController {
     {
         return "hii iam naveen";
     }
-    @RequestMapping("/error")
-    public String setError()
-    {
-        return "There was a error in config";
-    }
+
 }
