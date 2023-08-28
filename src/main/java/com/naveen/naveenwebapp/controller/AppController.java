@@ -9,7 +9,7 @@ public class AppController {
     @RequestMapping("/get")
     public String getContent()
     {
-        return "hii iam naveen";
+        return "<h1>hii iam naveen</h1>";
     }
 
 }
